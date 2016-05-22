@@ -18,7 +18,7 @@ pa_applet_SOURCES = \
     volume_scale.h
 
 pa_applet_CPPFLAGS = \
-    -std=c99 -D_GNU_SOURCE -Wall -Werror \
+    -std=c99 -D_GNU_SOURCE -Wall \
     $(GLIB_CFLAGS) \
     $(GTK3_CFLAGS) \
     $(LIBPULSE_CFLAGS) \
